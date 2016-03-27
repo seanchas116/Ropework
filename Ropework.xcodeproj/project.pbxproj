@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE594F5A1CA831B0003C0420 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE594F581CA831B0003C0420 /* Nimble.framework */; };
+		BE594F5B1CA831B0003C0420 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE594F591CA831B0003C0420 /* Quick.framework */; };
+		BE594F5E1CA831BA003C0420 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE594F5C1CA831BA003C0420 /* Nimble.framework */; };
+		BE594F5F1CA831BA003C0420 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE594F5D1CA831BA003C0420 /* Quick.framework */; };
+		BE594F631CA831EB003C0420 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE594F581CA831B0003C0420 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BE594F641CA831EB003C0420 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE594F591CA831B0003C0420 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BE594F681CA83261003C0420 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE594F5C1CA831BA003C0420 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BE594F691CA83261003C0420 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE594F5D1CA831BA003C0420 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BECA31891CA7B092001D3184 /* Ropework.h in Headers */ = {isa = PBXBuildFile; fileRef = BECA31881CA7B092001D3184 /* Ropework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BECA31901CA7B092001D3184 /* Ropework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECA31851CA7B092001D3184 /* Ropework.framework */; };
 		BECA31951CA7B092001D3184 /* RopeworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECA31941CA7B092001D3184 /* RopeworkTests.swift */; };
@@ -48,7 +56,36 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BE594F601CA831C6003C0420 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BE594F631CA831EB003C0420 /* Nimble.framework in CopyFiles */,
+				BE594F641CA831EB003C0420 /* Quick.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE594F671CA8325A003C0420 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BE594F681CA83261003C0420 /* Nimble.framework in CopyFiles */,
+				BE594F691CA83261003C0420 /* Quick.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		BE594F581CA831B0003C0420 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
+		BE594F591CA831B0003C0420 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
+		BE594F5C1CA831BA003C0420 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		BE594F5D1CA831BA003C0420 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		BECA31851CA7B092001D3184 /* Ropework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ropework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BECA31881CA7B092001D3184 /* Ropework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ropework.h; sourceTree = "<group>"; };
 		BECA318A1CA7B092001D3184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,6 +116,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE594F5A1CA831B0003C0420 /* Nimble.framework in Frameworks */,
+				BE594F5B1CA831B0003C0420 /* Quick.framework in Frameworks */,
 				BECA31901CA7B092001D3184 /* Ropework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +133,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE594F5E1CA831BA003C0420 /* Nimble.framework in Frameworks */,
+				BE594F5F1CA831BA003C0420 /* Quick.framework in Frameworks */,
 				BEDE5C221CA7B17D004DB4C9 /* Ropework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,6 +145,10 @@
 		BECA317B1CA7B092001D3184 = {
 			isa = PBXGroup;
 			children = (
+				BE594F5C1CA831BA003C0420 /* Nimble.framework */,
+				BE594F5D1CA831BA003C0420 /* Quick.framework */,
+				BE594F581CA831B0003C0420 /* Nimble.framework */,
+				BE594F591CA831B0003C0420 /* Quick.framework */,
 				BECA31871CA7B092001D3184 /* Ropework */,
 				BECA31931CA7B092001D3184 /* RopeworkTests */,
 				BECA31861CA7B092001D3184 /* Products */,
@@ -194,6 +239,7 @@
 				BECA318B1CA7B092001D3184 /* Sources */,
 				BECA318C1CA7B092001D3184 /* Frameworks */,
 				BECA318D1CA7B092001D3184 /* Resources */,
+				BE594F601CA831C6003C0420 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -230,6 +276,7 @@
 				BEDE5C1D1CA7B17D004DB4C9 /* Sources */,
 				BEDE5C1E1CA7B17D004DB4C9 /* Frameworks */,
 				BEDE5C1F1CA7B17D004DB4C9 /* Resources */,
+				BE594F671CA8325A003C0420 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -514,6 +561,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = RopeworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.seanchas116.RopeworkTests;
@@ -525,6 +576,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = RopeworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.seanchas116.RopeworkTests;
@@ -582,6 +637,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RopeworkTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -595,6 +654,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RopeworkTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

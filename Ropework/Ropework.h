@@ -6,7 +6,7 @@
 //  Copyright © 2016年 seanchas116. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for Ropework.
 FOUNDATION_EXPORT double RopeworkVersionNumber;
