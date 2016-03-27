@@ -214,9 +214,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BECA31841CA7B092001D3184 /* Ropework-OSX */ = {
+		BECA31841CA7B092001D3184 /* Ropework-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BECA31991CA7B092001D3184 /* Build configuration list for PBXNativeTarget "Ropework-OSX" */;
+			buildConfigurationList = BECA31991CA7B092001D3184 /* Build configuration list for PBXNativeTarget "Ropework-Mac" */;
 			buildPhases = (
 				BECA31801CA7B092001D3184 /* Sources */,
 				BECA31811CA7B092001D3184 /* Frameworks */,
@@ -227,14 +227,14 @@
 			);
 			dependencies = (
 			);
-			name = "Ropework-OSX";
+			name = "Ropework-Mac";
 			productName = Ropework;
 			productReference = BECA31851CA7B092001D3184 /* Ropework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BECA318E1CA7B092001D3184 /* RopeworkTests-OSX */ = {
+		BECA318E1CA7B092001D3184 /* RopeworkTests-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BECA319C1CA7B092001D3184 /* Build configuration list for PBXNativeTarget "RopeworkTests-OSX" */;
+			buildConfigurationList = BECA319C1CA7B092001D3184 /* Build configuration list for PBXNativeTarget "RopeworkTests-Mac" */;
 			buildPhases = (
 				BECA318B1CA7B092001D3184 /* Sources */,
 				BECA318C1CA7B092001D3184 /* Frameworks */,
@@ -246,7 +246,7 @@
 			dependencies = (
 				BECA31921CA7B092001D3184 /* PBXTargetDependency */,
 			);
-			name = "RopeworkTests-OSX";
+			name = "RopeworkTests-Mac";
 			productName = RopeworkTests;
 			productReference = BECA318F1CA7B092001D3184 /* RopeworkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -324,8 +324,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BECA31841CA7B092001D3184 /* Ropework-OSX */,
-				BECA318E1CA7B092001D3184 /* RopeworkTests-OSX */,
+				BECA31841CA7B092001D3184 /* Ropework-Mac */,
+				BECA318E1CA7B092001D3184 /* RopeworkTests-Mac */,
 				BEDE5C171CA7B17D004DB4C9 /* Ropework-iOS */,
 				BEDE5C201CA7B17D004DB4C9 /* RopeworkTests-iOS */,
 			);
@@ -415,7 +415,7 @@
 /* Begin PBXTargetDependency section */
 		BECA31921CA7B092001D3184 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BECA31841CA7B092001D3184 /* Ropework-OSX */;
+			target = BECA31841CA7B092001D3184 /* Ropework-Mac */;
 			targetProxy = BECA31911CA7B092001D3184 /* PBXContainerItemProxy */;
 		};
 		BEDE5C241CA7B17D004DB4C9 /* PBXTargetDependency */ = {
@@ -680,7 +680,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BECA31991CA7B092001D3184 /* Build configuration list for PBXNativeTarget "Ropework-OSX" */ = {
+		BECA31991CA7B092001D3184 /* Build configuration list for PBXNativeTarget "Ropework-Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BECA319A1CA7B092001D3184 /* Debug */,
@@ -689,7 +689,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BECA319C1CA7B092001D3184 /* Build configuration list for PBXNativeTarget "RopeworkTests-OSX" */ = {
+		BECA319C1CA7B092001D3184 /* Build configuration list for PBXNativeTarget "RopeworkTests-Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BECA319D1CA7B092001D3184 /* Debug */,
