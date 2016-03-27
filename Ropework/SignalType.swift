@@ -2,6 +2,8 @@ import Foundation
 
 public protocol SignalType {
     associatedtype Value
+    
+    @warn_unused_result(message="Subscription must be stored in SubscriptionBag to keep it alive")
     func subscribe(action: (Value) -> Void) -> SubscriptionType
 }
 
