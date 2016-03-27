@@ -11,6 +11,8 @@
 		BECA31901CA7B092001D3184 /* Ropework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECA31851CA7B092001D3184 /* Ropework.framework */; };
 		BECA31951CA7B092001D3184 /* RopeworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECA31941CA7B092001D3184 /* RopeworkTests.swift */; };
 		BEDE5C221CA7B17D004DB4C9 /* Ropework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDE5C181CA7B17D004DB4C9 /* Ropework.framework */; };
+		BEDE5C2F1CA7B214004DB4C9 /* Ropework.h in Headers */ = {isa = PBXBuildFile; fileRef = BECA31881CA7B092001D3184 /* Ropework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEDE5C301CA7B21E004DB4C9 /* RopeworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECA31941CA7B092001D3184 /* RopeworkTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +130,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEDE5C2F1CA7B214004DB4C9 /* Ropework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEDE5C301CA7B21E004DB4C9 /* RopeworkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
