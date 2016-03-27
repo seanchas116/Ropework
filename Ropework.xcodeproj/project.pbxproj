@@ -13,6 +13,22 @@
 		BEDE5C221CA7B17D004DB4C9 /* Ropework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDE5C181CA7B17D004DB4C9 /* Ropework.framework */; };
 		BEDE5C2F1CA7B214004DB4C9 /* Ropework.h in Headers */ = {isa = PBXBuildFile; fileRef = BECA31881CA7B092001D3184 /* Ropework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEDE5C301CA7B21E004DB4C9 /* RopeworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECA31941CA7B092001D3184 /* RopeworkTests.swift */; };
+		BEDE5C321CA7B27E004DB4C9 /* PropertyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDE5C311CA7B27E004DB4C9 /* PropertyType.swift */; };
+		BEDE5C331CA7B27E004DB4C9 /* PropertyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDE5C311CA7B27E004DB4C9 /* PropertyType.swift */; };
+		BEDE5C351CA7B2A9004DB4C9 /* SignalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDE5C341CA7B2A9004DB4C9 /* SignalType.swift */; };
+		BEDE5C361CA7B2A9004DB4C9 /* SignalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDE5C341CA7B2A9004DB4C9 /* SignalType.swift */; };
+		BEDE5C381CA7B313004DB4C9 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDE5C371CA7B313004DB4C9 /* Subscription.swift */; };
+		BEDE5C391CA7B313004DB4C9 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDE5C371CA7B313004DB4C9 /* Subscription.swift */; };
+		BEDE5C3B1CA7B569004DB4C9 /* LazyProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDE5C3A1CA7B569004DB4C9 /* LazyProperty.swift */; };
+		BEDE5C3C1CA7B569004DB4C9 /* LazyProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDE5C3A1CA7B569004DB4C9 /* LazyProperty.swift */; };
+		BEDE5C411CA7B6AB004DB4C9 /* AnyProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDE5C401CA7B6AB004DB4C9 /* AnyProperty.swift */; };
+		BEDE5C421CA7B6AB004DB4C9 /* AnyProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDE5C401CA7B6AB004DB4C9 /* AnyProperty.swift */; };
+		BEDE5C441CA7B6E7004DB4C9 /* AnySignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDE5C431CA7B6E7004DB4C9 /* AnySignal.swift */; };
+		BEDE5C451CA7B6E7004DB4C9 /* AnySignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDE5C431CA7B6E7004DB4C9 /* AnySignal.swift */; };
+		BEDE5C471CA7B870004DB4C9 /* LazySignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDE5C461CA7B870004DB4C9 /* LazySignal.swift */; };
+		BEDE5C481CA7B870004DB4C9 /* LazySignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDE5C461CA7B870004DB4C9 /* LazySignal.swift */; };
+		BEDE5C4A1CA7B921004DB4C9 /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDE5C491CA7B921004DB4C9 /* Signal.swift */; };
+		BEDE5C4B1CA7B921004DB4C9 /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDE5C491CA7B921004DB4C9 /* Signal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +57,14 @@
 		BECA31961CA7B092001D3184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEDE5C181CA7B17D004DB4C9 /* Ropework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ropework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEDE5C211CA7B17D004DB4C9 /* RopeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RopeworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEDE5C311CA7B27E004DB4C9 /* PropertyType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyType.swift; sourceTree = "<group>"; };
+		BEDE5C341CA7B2A9004DB4C9 /* SignalType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignalType.swift; sourceTree = "<group>"; };
+		BEDE5C371CA7B313004DB4C9 /* Subscription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
+		BEDE5C3A1CA7B569004DB4C9 /* LazyProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LazyProperty.swift; sourceTree = "<group>"; };
+		BEDE5C401CA7B6AB004DB4C9 /* AnyProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyProperty.swift; sourceTree = "<group>"; };
+		BEDE5C431CA7B6E7004DB4C9 /* AnySignal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnySignal.swift; sourceTree = "<group>"; };
+		BEDE5C461CA7B870004DB4C9 /* LazySignal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LazySignal.swift; sourceTree = "<group>"; };
+		BEDE5C491CA7B921004DB4C9 /* Signal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +126,14 @@
 			children = (
 				BECA31881CA7B092001D3184 /* Ropework.h */,
 				BECA318A1CA7B092001D3184 /* Info.plist */,
+				BEDE5C311CA7B27E004DB4C9 /* PropertyType.swift */,
+				BEDE5C341CA7B2A9004DB4C9 /* SignalType.swift */,
+				BEDE5C371CA7B313004DB4C9 /* Subscription.swift */,
+				BEDE5C3A1CA7B569004DB4C9 /* LazyProperty.swift */,
+				BEDE5C401CA7B6AB004DB4C9 /* AnyProperty.swift */,
+				BEDE5C431CA7B6E7004DB4C9 /* AnySignal.swift */,
+				BEDE5C461CA7B870004DB4C9 /* LazySignal.swift */,
+				BEDE5C491CA7B921004DB4C9 /* Signal.swift */,
 			);
 			path = Ropework;
 			sourceTree = "<group>";
@@ -289,6 +321,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEDE5C441CA7B6E7004DB4C9 /* AnySignal.swift in Sources */,
+				BEDE5C4A1CA7B921004DB4C9 /* Signal.swift in Sources */,
+				BEDE5C411CA7B6AB004DB4C9 /* AnyProperty.swift in Sources */,
+				BEDE5C321CA7B27E004DB4C9 /* PropertyType.swift in Sources */,
+				BEDE5C381CA7B313004DB4C9 /* Subscription.swift in Sources */,
+				BEDE5C471CA7B870004DB4C9 /* LazySignal.swift in Sources */,
+				BEDE5C3B1CA7B569004DB4C9 /* LazyProperty.swift in Sources */,
+				BEDE5C351CA7B2A9004DB4C9 /* SignalType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +344,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEDE5C451CA7B6E7004DB4C9 /* AnySignal.swift in Sources */,
+				BEDE5C4B1CA7B921004DB4C9 /* Signal.swift in Sources */,
+				BEDE5C421CA7B6AB004DB4C9 /* AnyProperty.swift in Sources */,
+				BEDE5C331CA7B27E004DB4C9 /* PropertyType.swift in Sources */,
+				BEDE5C391CA7B313004DB4C9 /* Subscription.swift in Sources */,
+				BEDE5C481CA7B870004DB4C9 /* LazySignal.swift in Sources */,
+				BEDE5C3C1CA7B569004DB4C9 /* LazyProperty.swift in Sources */,
+				BEDE5C361CA7B2A9004DB4C9 /* SignalType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +471,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -436,6 +485,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.seanchas116.Ropework;
 				PRODUCT_NAME = Ropework;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -443,6 +493,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -485,6 +536,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -498,6 +550,7 @@
 				PRODUCT_NAME = Ropework;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -506,6 +559,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -588,6 +642,7 @@
 				BEDE5C2B1CA7B17D004DB4C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEDE5C2C1CA7B17D004DB4C9 /* Build configuration list for PBXNativeTarget "RopeworkTests-iOS" */ = {
 			isa = XCConfigurationList;
@@ -596,6 +651,7 @@
 				BEDE5C2E1CA7B17D004DB4C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
